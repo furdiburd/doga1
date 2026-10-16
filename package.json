@@ -1,6 +1,23 @@
 {
+  "name": "doga1",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "lodash": "^4.18.1",
-    "vite": "^8.3.4"
+    "bootstrap": "^5.3.8",
+    "dayjs": "^1.11.23",
+    "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
   }
 }
